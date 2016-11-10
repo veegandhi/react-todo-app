@@ -3,3 +3,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 Todo List build on React.js
+Architecture : Flux.
