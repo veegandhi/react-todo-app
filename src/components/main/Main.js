@@ -12,6 +12,7 @@ export  default class Main extends Component {
 			todos : TodoStore.getAll()
 		};
 	}
+
 	componentWillMount(){
 		TodoStore.on("change" , () => {
 			this.setState({
@@ -19,6 +20,7 @@ export  default class Main extends Component {
 			})
 		})
 	}
+
 	render(){
 		return(
 			<div>
